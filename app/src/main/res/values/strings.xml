@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">个人测试用例</string>
+    <string name="app_content_text">个人测试用例后台进程保活</string>
+</resources>
