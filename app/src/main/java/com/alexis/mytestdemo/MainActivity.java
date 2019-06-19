@@ -14,10 +14,13 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.blankj.utilcode.util.AppUtils;
 
 import java.util.Arrays;
 
@@ -39,7 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initDatas(){
-
+        Log.d("zhz","is root:"+AppUtils.isAppRoot());
     }
 
     private void initViews(){
