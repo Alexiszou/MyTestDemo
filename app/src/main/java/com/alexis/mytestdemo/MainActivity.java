@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void initDatas(){
         Log.d("zhz","is root:"+AppUtils.isAppRoot());
+        //AppUtils.r
     }
 
     private void initViews(){
